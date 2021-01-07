@@ -1,5 +1,5 @@
 import './styles.css';
-import { ReactComponent as Logo } from './logo.svg';
+import { ReactComponent as Logo } from '../assets/logo.svg';
 const Navbar = () => {
     return(
         <nav className="main-Navbar" >
