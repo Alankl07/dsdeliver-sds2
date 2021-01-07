@@ -1,10 +1,11 @@
 import './styles.css';
 import { ReactComponent as Logo } from '../assets/logo.svg';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return(
         <nav className="main-Navbar" >
             <Logo/>
-            <a href="Home" className="logo-text" >DS Delivery</a>
+            <Link to="/" className="logo-text" >DS Delivery</Link>
         </nav>
     )
 }
