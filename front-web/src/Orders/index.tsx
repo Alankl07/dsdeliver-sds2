@@ -1,5 +1,4 @@
 import './styles.css';
-import { ReactComponent as Logo } from '../assets/logo.svg';
 import { toast } from 'react-toastify';
 import StepHeader from './StepsHeader';
 import ProductList from './ProductsList';

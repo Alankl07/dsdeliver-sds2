@@ -1,5 +1,4 @@
-import { ReactComponent as Logo } from '../assets/logo.svg';
-import { Link } from 'react-router-dom';
+
 const StepHeader = () => {
     return(
         <header className="orders-steps-container" >
